@@ -3,7 +3,8 @@ Javascript color functions used in projects
 
 
 ### tweenColors(colorA, colorB, fraction, minOpacity)
-Returns an object with a color in between 2 input colors
+Returns an object with a color in between 2 input colors.  
+Useful in mapping circles where the shade of the color is related to a data value.  The data value can be used to create the `fraction` so that the color morphs as the data changes.
 
 The tweened color can be a blend with a `fraction` of 0 to 1
 with 0 being identical to `colorA`, and 1 being identical to `colorB`
