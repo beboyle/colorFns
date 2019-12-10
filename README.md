@@ -11,7 +11,11 @@ and 0.5 being midway between.
 Input colors are represented as an array [ r, g, b, alpha ] as in the order in a color rgba(red, green ,blue, alpha).  
 If the 4th element in the array is specified then the `alpha` value is also tweened.  But a minimum alpha level `minOpacity` can also be specified to avoid too faint of a color.
 
-Returned object has properties:   
+Returned object has the following properties:   
 
-     .rbga is a color string like "rgba(100,100,100,0.5)"   
-     .arr  is an array similar to the input color arrays
+     .rbga a color string like "rgba(100,100,100,0.5)"   
+     .arr  an array similar to the input color arrays . 
+     .r the red component (0 to 255)   
+     .g the green component (0 to 255)   
+     .b the blue component (0 to 255)  
+     .a the alpha component (0 to 1)
