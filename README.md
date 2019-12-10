@@ -13,5 +13,5 @@ If the 4th element in the array is specified then the `alpha` value is also twee
 
 Returned object has properties:   
 
-     .rbga is a color string like "rgba(100,100,100,0.5)" . 
+     .rbga is a color string like "rgba(100,100,100,0.5)"   
      .arr  is an array similar to the input color arrays
