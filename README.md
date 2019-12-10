@@ -7,7 +7,7 @@ Import the desired functions into the component where needed.
 
   `import { tweenColors } from '../js/colorFns'`
 
-  
+## List of Color Functions
 
 ### tweenColors(colorA, colorB, fraction, minOpacity)
 Returns an object with a color in between 2 input colors.  
