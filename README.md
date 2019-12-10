@@ -1,6 +1,13 @@
 # colorFns
 Javascript color functions used in projects
 
+## Installation
+Clone this repository to the appropriate folder on the local device.  
+Import the desired functions into the component where needed.  
+
+  `import { tweenColors } from '../js/colorFns'`
+
+  
 
 ### tweenColors(colorA, colorB, fraction, minOpacity)
 Returns an object with a color in between 2 input colors.  
